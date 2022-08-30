@@ -4,11 +4,13 @@
 #hamnav {
   width: 100%;
   background: #000;
+  float: right;
 } 
 
 /* Hide Hamburger Icon */
 #hamnav label, #hamburger {
   display: none;
+  float: right;
 }
 
 /* Menu Items */
