@@ -28,3 +28,38 @@
 #hamitems a:hover {
   background: #8a0000;
 }
+
+/* Small Screen Transform */
+@media screen and (max-width: 768px) {
+  /* Break Into Vertical Menu */
+  #hamitems {
+    display: block;
+  }
+  #hamitems a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #333;
+  }
+
+  /* Show Hamburger Icon */
+  #hamnav label {
+    display: inline-block;
+    color: #fff;
+    background: #8a0000;
+    font-size: 1.2em;
+    font-style: normal;
+    padding: 10px;
+
+  }
+
+  /* Hide Menu Items By Default */
+  #hamitems {
+    display: none;
+  }
+
+  /* Toggle Show Hide */
+  #hamnav input:checked ~ #hamitems {
+    display: block;
+  }
+}
