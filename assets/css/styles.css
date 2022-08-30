@@ -1,0 +1,30 @@
+/* Big Screen */
+
+/* Wrapper */
+#hamnav {
+  width: 100%;
+  background: #000;
+} 
+
+/* Hide Hamburger Icon */
+#hamnav label, #hamburger {
+  display: none;
+}
+
+/* Menu Items */
+#hamitems {
+  display: flex;
+}
+
+#hamitems a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+#hamitems a:hover {
+  background: #8a0000;
+}
