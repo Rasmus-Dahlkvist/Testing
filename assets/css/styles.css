@@ -11,7 +11,8 @@
   background: #000;
   float: left;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.7vw;
+  padding-top: 20px;
 } 
 
 #header a {
@@ -32,7 +33,6 @@
 /* Hide Hamburger Icon */
 #hamnav label, #hamburger {
   display: none;
-  float: right;
 }
 
 /* Menu Items */
